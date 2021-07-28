@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.header__left > h1 {
+  color: white;
+  font-size: 3rem;
+  letter-spacing: -2px;
+  line-height: 1.3125;
+}
+.button {
+  color: white;
+  margin-left: 35px;
+}
+.header__image {
+  height: 45px;
+  object-fit: contain;
+  color: white;
+}
+.logo__icon {
+  color: white;
+  font-size: 50px !important;
+}
+.header__right > button {
+  padding: 0px 24px;
+  min-height: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #fd5068;
+  outline-width: 0;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.header__right > button:hover {
+  background-color: #fd5068;
+  color: #fff;
+}

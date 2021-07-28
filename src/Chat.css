@@ -1,0 +1,27 @@
+.chat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #fafafa;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.chat__info {
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+
+  cursor: pointer;
+}
+.chat__info > small {
+  position: absolute;
+  color: lightgray;
+  top: 13px;
+  right: 0;
+}
+.chat__info > p {
+  color: gray;
+}
